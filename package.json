@@ -39,6 +39,7 @@
     "figlet": "1.2.0",
     "inquirer": "6.0.0",
     "meow": "5.0.0",
+    "minimist": "1.2.0",
     "node-fetch": "2.2.0",
     "simple-git": "1.96.0"
   }
