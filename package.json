@@ -1,0 +1,45 @@
+{
+  "name": "ginit-node-cli",
+  "version": "0.1.0",
+  "description": "Git-github CLI utility",
+  "homepage": "https://github.com/devtoni/ginit-node-cli#readme",
+  "bin": "./bin/cli.js",
+  "main": "./bin/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devtoni/ginit-node-cli"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha --watch"
+  },
+  "keywords": [
+    "node",
+    "git",
+    "github",
+    "cli"
+  ],
+  "author": {
+    "name": "Toni Ruiz",
+    "email": "devtonirm@gmail.com",
+    "url": "https://github.com/devtoni"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "5.2.0",
+    "nock": "9.4.2",
+    "sinon": "6.1.3"
+  },
+  "dependencies": {
+    "awilix": "3.0.8",
+    "btoa-lite": "1.0.0",
+    "chalk": "2.4.1",
+    "configstore": "3.1.2",
+    "figlet": "1.2.0",
+    "inquirer": "6.0.0",
+    "meow": "5.0.0",
+    "node-fetch": "2.2.0",
+    "simple-git": "1.96.0"
+  }
+}
