@@ -1,6 +1,6 @@
 {
   "name": "ginit-node-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Git-github CLI utility",
   "homepage": "https://github.com/devtoni/ginit-node-cli#readme",
   "bin": "./bin/cli.js",
