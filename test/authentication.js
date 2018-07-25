@@ -6,7 +6,7 @@ const container = require('../lib/container')
 const authentication = container.resolve('authentication')
 const storage = container.resolve('storage')
 const prompt = container.resolve('prompt')
-let config = container.resolve('config')
+const config = container.resolve('config')
 const btoa = require('btoa-lite')
 
 describe('Test authentication', () => {
